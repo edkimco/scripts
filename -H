@@ -1,0 +1,97 @@
+== Info: Port number ended with ' '
+== Info: Closing connection -1
+== Info:   Trying 192.30.255.117...
+== Info: TCP_NODELAY set
+== Info: Connected to api.github.com (192.30.255.117) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: /etc/ssl/cert.pem
+  CApath: none
+== Info: TLSv1.2 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: .......TI...PD&".;-.../.......m...l%............0.,.(.$.........
+0040: k.j.9.8.............2...*.&.......=.5...../.+.'.#.........g.@.3.
+0080: 2.....E.D.1.-.).%.......<./...A...................M.........api.
+00c0: github.com...........:.8........................................
+0100: ...................&.$....................................3t....
+0140: .....h2.http/1.1................................................
+0180: ................................................................
+01c0: ................................................................
+== Info: TLSv1.2 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 108 bytes (0x6c)
+0000: ...h..|....er.....QP....3F..g...5..;@. .k.l.5.+.1.SRw.nYh.L.e.i.
+0040: .;~..../.. ........................http/1.1
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 3091 bytes (0xc13)
+0000: .........Q0..M0..5.............a...o.5E..0...*.H........0p1.0...
+0040: U....US1.0...U....DigiCert Inc1.0...U....www.digicert.com1/0-..U
+0080: ...&DigiCert SHA2 High Assurance Server CA0...170118000000Z..200
+00c0: 417120000Z0h1.0...U....US1.0...U....California1.0...U....San Fra
+0100: ncisco1.0...U....GitHub, Inc.1.0...U....*.github.com0.."0...*.H.
+0140: ............0...........0I-.....].....px~.k...U6.i.._...NR.HC.T.
+0180: ..Y.Yj.F.v.N..t...K.......\..<.. ..........G...C.......!.G.ADm..
+01c0: -k.....t...;.K.......t......,.l...........|2.<...F.....g+....p*\
+0200: ..j..JCa}Z....".w.6o%..>/..fx....`..`.;.U..#...t.h|=H.Dj.7.....-
+0240: ....(...k....>..]...e.........0...0...U.#..0...Qh.....u<..edb...
+0280: Yr;0...U.......aR...@.. .07$...lj.0#..U....0...*.github.com..git
+02c0: hub.com0...U...........0...U.%..0...+.........+.......0u..U...n0
+0300: l04.2.0..http://crl3.digicert.com/sha2-ha-server-g5.crl04.2.0..h
+0340: ttp://crl4.digicert.com/sha2-ha-server-g5.crl0L..U. .E0C07..`.H.
+0380: ..l..0*0(..+.........https://www.digicert.com/CPS0...g.....0....
+03c0: +........w0u0$..+.....0...http://ocsp.digicert.com0M..+.....0..A
+0400: http://cacerts.digicert.com/DigiCertSHA2HighAssuranceServerCA.cr
+0440: t0...U.......0.0.....+.....y..............u.......X......gp.<5..
+0480: .....w.........Y..>K.....F0D. ......SGV.)>..A]4.......27..w..B. 
+04c0: ...*(..g.:..4>...V..H.L...B.X....v.V.../.......D.>.Fv....\....U.
+0500: ......Y..?......G0E. $.i..(..-|....E.....].. ,T.......!..%....e.
+0540: ...b....%.K-~I.1W..V...W.u..K..u.`..Bi....f..~_.r....{.z......Y.
+0580: .@......F0D. r...Ho3D...6f.p...D....&.4x&\.... F...i..n;.Z [....
+05c0: ..._......X..$..v.......q...#...{G8W...R....d6.......Y..>].....G
+0600: 0E.!..L..].....E.=6.WZ....9.....8.H... ..4..(....R...D[.... /.".
+0640: ..N.&[u0...*.H.............|./IJ.g..."=....t.?...?..9K.....?....
+0680: .,.....3..V..i.{.X.E......v....2...&../._..i..Xh.\...vp...H._#..
+06c0: $.P..h*B.D.5..%UA.pwC.L...V......H.E....|..s....VsV.+.K?X.a...?_
+0700: FD.....V6....n.4Y.........!}y&(R..+...Du)...,.......j.........*
+0740: ...OY.........3.1n.x(...)....0...0...............\..m.+B.]..0..
+0780: .*.H........0l1.0...U....US1.0...U....DigiCert Inc1.0...U....www
+07c0: .digicert.com1+0)..U..."DigiCert High Assurance EV Root CA0...13
+0800: 1022120000Z..281022120000Z0p1.0...U....US1.0...U....DigiCert Inc
+0840: 1.0...U....www.digicert.com1/0-..U...&DigiCert SHA2 High Assuran
+0880: ce Server CA0.."0...*.H.............0........../.$..m._...d..}"&
+08c0: e..B@.....v.>.0U...O..Z..UV...*.....@...;r............C:.......@
+0900: ....M._W..Ph................-..........^DX*7..5...'2Z......Q.'..
+0940: ;B3..(..(...+#.x.{.^q.J>........#.M.....u.......D5eS%9....c...t
+0980: h.7..RH.9Z...]... .!..&o.J!A..m..H/....h.S/^.........I0..E0...U.
+09c0: ......0.......0...U...........0...U.%..0...+.........+.......04.
+0a00: .+........(0&0$..+.....0...http://ocsp.digicert.com0K..U...D0B0@
+0a40: .>.<.:http://crl4.digicert.com/DigiCertHighAssuranceEVRootCA.crl
+0a80: 0=..U. .60402..U. .0*0(..+.........https://www.digicert.com/CPS0
+0ac0: ...U......Qh.....u<..edb...Yr;0...U.#..0....>.i...G...&....cd+.0
+0b00: ...*.H...................m.\..h.J...Q/.kD...c..nl.....q.[.4N..y.
+0b40: ).-.j.. .y...G.....Yq}...k.YX=..1%\.8.......[.1N.x.....I..'..r.>
+0b80: ..A...6...nGI^.H|....I..&B@.....d.WT.....^k......r.V....0..0..
+0bc0: N.W..$...+..u..-..}y'............ (AYC(......{;w.@b..AE....>..3.
+0c00: g.a.r..i...W@.p....
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A.h...a....5..f.m|$.}.BN..g(.lo].i.<......l..[B........ 8
+0040: ..Z.....A.....`3.Ur....~._....:ur#6`.#=..=[.n)............^.%.Vu
+0080: ..%T.;.`.......~v....x.....h...|.M....y]..-..st&..]..W)cO \Q.|..
+00c0: K=..5......B.t.h....\..K{....r..[.i....F].. ...i....N.a1_.;..L..
+0100: .~P...h....O.1.r...X........pu...f|}3S.>..6...n$9....rqdW....*K.
+0140: d.T[".s&%.<a.
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA....I..i.#....b...=......kL..pg.., H.q.W..8C....=H..t..'8.u
+0040: R.&.j.
+== Info: TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: .....-.:.7D.....
