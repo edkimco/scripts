@@ -3,5 +3,5 @@
 ## Initializing Labels on Github Repository
 
 ```sh
-./init-label.sh {REPOSITORY} {USERNAME} {PASSWORD}
+./init-labels.sh {REPOSITORY} {USERNAME} {PASSWORD}
 ```
