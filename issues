@@ -2,10 +2,8 @@
 [STATUS] 진행중;008673
 [STATUS] 테스트필요;008673
 [STATUS] 보류;008673
-[PART] 기획;f39513
-[PART] 개발;f39513
-[PART] 디자인;f39513
+[PART] 기획;cc317c
+[PART] 디자인;cc317c
 QA;33aa3f
-질문;cc317c
 버그;ee0701
 IE;000000
