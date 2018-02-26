@@ -16,7 +16,7 @@ do
 	-u "$2:$3";
 done
 
-cat ./src/remove-issues | while read ISSUE_TO_REMOVE
+cat ./src/issues-to-remove | while read ISSUE_TO_REMOVE
 do
 	name="$(echo $ISSUE_TO_REMOVE)"
 
