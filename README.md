@@ -9,5 +9,5 @@
 
 #### Example
 ```sh
-./init-labels jtie {USERNAME} {PASSWORD}
+./init-labels.sh jtie {USERNAME} {PASSWORD}
 ```
